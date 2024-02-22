@@ -6,7 +6,7 @@ import Filter from './components/Filter';
 function App() {
   const [searchParams, setSearchParams] = useState([0, 0, 0, 'any', '1', 100, 100, 100]);
   document.body.style = "background-color: black;"
-  
+  document.title = "NBA Stats Lookup"
   return (
     <div id='app'>
       <div id="statsTool" class="borderDiv">
