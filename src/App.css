@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+#statsTool {
+  background-color: #26282e;
+  width: 20%;
+  height: 92%;
+  top: 5%;
+  left: 2%;
+  position: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#filter {
+  background-color: #26282e;
+  width: 72%;
+  height: 20%;
+  top: 5%;
+  right: 2%;
+  position: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#playerList {
+  background-color: #26282e;
+  color: #e6dbdb;
+  width: 72%;
+  height: 70%;
+  top: 27%;
+  right: 2%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: fixed;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.borderDiv {
+  border: #000000 3px solid;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  text-align: center;
+  margin: 0%;
 }
+
+#app {
+  font-family: monospace;
+  color: azure;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+

@@ -1,0 +1,39 @@
+form {
+    padding-left: 10px;
+    padding-top: 0px;
+    font-size: 25px;
+    width: fill;
+}
+
+.subLabel {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+input {
+    width: 50px;
+}
+
+button {
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+#left {
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    left: 10%;
+    top: 0;
+    overflow: hidden;
+}
+
+#right {
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+}

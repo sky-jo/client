@@ -1,0 +1,22 @@
+table {
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+    font-size: 30px;
+    width: 100%;
+}
+
+td {
+    padding: 5px;
+    color: green;
+}
+
+th {
+    padding: 5px;
+    color: rgb(0, 169, 0);
+    border-bottom: 3px solid black;
+    cursor: move;
+    user-select: none;
+}
