@@ -9,7 +9,6 @@ function App() {
   
   return (
     <div id='app'>
-      <div id='container'>
       <div id="statsTool" class="borderDiv">
         This will be something cool in the future
       </div>
@@ -18,7 +17,6 @@ function App() {
       </div>
       <div id="playerList" class="borderDiv">
         <PlayerList id="pl" searchParams={searchParams}/>
-      </div>
       </div>
     </div>
   );

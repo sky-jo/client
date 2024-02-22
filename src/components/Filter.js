@@ -44,8 +44,7 @@ function Filter({ setSearchParams }) {
         let maxrpg = payload["rpgmax"];
         maxrpg = convert(maxrpg);
         // END OFFENSIVE STATS
-        // DEFENSIVE STATS 
-
+        
         let team = payload["team"];
         let sortBy = payload["sortBy"]
          

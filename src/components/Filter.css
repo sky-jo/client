@@ -2,7 +2,7 @@ form {
     padding-left: 10px;
     padding-top: 0px;
     font-size: 25px;
-    width: fill;
+    width: stretch;
 }
 
 .subLabel {
@@ -10,6 +10,7 @@ form {
     padding-left: 10px;
     padding-top: 0px;
 }
+
 input {
     width: 50px;
 }

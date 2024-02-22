@@ -27,7 +27,6 @@
   overflow-x: hidden;
   position: fixed;
   display: flex;
-  justify-content: center;
 }
 
 .borderDiv {
